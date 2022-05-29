@@ -1,0 +1,86 @@
+/* peinados */
+.conteinerPein {
+    width: 100%;
+
+    display: grid;
+    grid-template-areas:
+        "tittleMainP"
+        "itemP1"
+        "itemP2"
+        "itemP3"
+        "itemP4"
+        "itemP5"
+        "itemP6"
+        "itemP7"
+        "itemP8"
+    ;
+}
+
+.tittleMainP {
+    grid-area: tittleMainP;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    padding: 5px 0px;
+    border: black solid 2px;
+}
+
+.itemP1 {
+    grid-area: itemP1;
+}
+
+.itemP2 {
+    grid-area: itemP2;
+}
+
+.itemP3 {
+    grid-area: itemP3;
+}
+
+.itemP4 {
+    grid-area: itemP4;
+}
+
+.itemP5 {
+    grid-area: itemP5;
+}
+
+.itemP6 {
+    grid-area: itemP6;
+}
+
+.itemP7 {
+    grid-area: itemP7;
+}
+
+.itemP8 {
+    grid-area: itemP8;
+}
+
+
+.itemP1,
+.itemP2,
+.itemP3,
+.itemP4,
+.itemP5,
+.itemP6,
+.itemP7,
+.itemP8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px;
+    padding: 15px;
+    border: #3c4043 solid 2px;
+    border-radius: 15px;
+    img {
+        width: 100%;
+        height: 100%;
+        margin: 5px;
+        border: #3c4043 solid 1px;
+    }
+}

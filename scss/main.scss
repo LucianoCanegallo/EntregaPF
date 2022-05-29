@@ -1,0 +1,9 @@
+@import "variables", "nav", "index", "productos", "peinados", "historia", "contacto", "medias";
+
+.container-fluid {
+    padding: 0;
+}
+
+p {
+    font-family: $tipo;
+}

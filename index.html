@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container-fluid"> 
+
+
+
+        <!-- navegacion lateral -->
+        <nav class="navbar navbar-light">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" aria-controls="offcanvas"
+                data-bs-target="#lateral"><span class="navbar-toggler-icon"></span></button>
+            <div class="offcanvas offcanvas-start" id="lateral">
+                <div class="offcanvas-header">
+                    <div class="offcanvas-tittle">
+                        <button class="navbar-toggler" type="button" data-bs-dismiss="offcanvas"><span
+                                class="navbar-toggler-icon"></span></button>
+                    </div>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li class="btn-Nav"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="btn-Nav"><a class="nav-link" href="./pages/producto.html">Productos</a></li>
+                        <li class="btn-Nav"><a class="nav-link" href="./pages/peinados.html">Peinados</a></li>
+                        <li class="btn-Nav"><a class="nav-link" href="./pages/historia.html">Historia</a></li>
+                        <li class="btn-Nav"><a class="nav-link" href="./pages/contacto.html">Turnos</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="navbar-brand text-right p-1">
+            The Barber
+        </div>
+        </nav>
+
+
+        <!-- banner -->
+        <div class="bannerIndex">
+            <img src="./assets/fondo.png" class="w-100" alt="">
+            <div class="btnBanner">
+                <button class="btn"><a href="./pages/contacto.html">Solicita tu Turno</a></button>
+            </div>
+        </div>
+
+
+        <!-- Main -->
+        <div class="contenedorMain container-fluid row gap-1">
+            <div class="card col-12 col-md-5 col-lg-4 mx-auto">
+                <img src="./assets/serviciocorte.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cortes</h5>
+                    <p class="card-text">Somos los mejores en lo que hacemos, te invitamos a ver nuestros trabajos
+                        destacados</p>
+                    <a href="#" class="btn w-100">Peinados</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-5 col-lg-4 mx-auto">
+                <img src="./assets/serviciopresentacion.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Conócenos</h5>
+                    <p class="card-text">El saber quienes somos es importante para generarle confianza a nuestros
+                        clientes.</p>
+                    <a href="#" class="btn w-100">Historia</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-5 col-lg-4 mx-auto">
+                <img src="./assets/servicioproducto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Productos</h5>
+                    <p class="card-text">Tu estilo es importante, pero tendras que cuidarlo, para eso tenemos
+                        asesoramiento personalizado de productos de calidad.</p>
+                    <a href="#" class="btn w-100">Productos</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-muted">
+
+            <section class="p-2">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                The Barber
+                            </h6>
+                            <p>
+                                A contituación te dejaré unos links útiles donde podras navegar por nuestra página y
+                                conocer nuestras redes sociales
+                            </p>
+                        </div>
+
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Páginas
+                            </h6>
+                            <p>
+                                <a href="./pages/producto.html" class="text-reset">Productos</a>
+                            </p>
+                            <p>
+                                <a href="./pages/peinados.html" class="text-reset">Peinados</a>
+                            </p>
+                            <p>
+                                <a href="./pages/historia.html" class="text-reset">Historia</a>
+                            </p>
+                            <p>
+                                <a href="./pages/contacto.html" class="text-reset">Contacto</a>
+                            </p>
+                        </div>
+
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Nuestras Redes
+                            </h6>
+                            <p>
+                                <a href="" class="text-reset">Instragam</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-reset">Twitter</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-reset">TikTok</a>
+                            </p>
+                            <p>
+                                <a href="" class="text-reset">Facebook</a>
+                            </p>
+                        </div>
+
+
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contacto
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Rosario, Santa Fé, Arg</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                alguncorreo@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 54 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 54 234 567 89</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/a7b5ec7862.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/* Historia */
+.bannerHistoria img {
+    width: 100%;
+}
+
+.bannerHistoria .cuadroBanner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: wheat;
+    border: #3c4043 solid 2px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+
+
+    height: 220px;
+    width: 100%;
+
+}
+
+
+.contenidoHistoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+    margin: 15px;
+    border: solid gray 3px;
+    border-radius: 20px;
+    .bodyHistoria {
+        text-align: center;
+    }
+}

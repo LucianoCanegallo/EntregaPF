@@ -1,0 +1,43 @@
+/* Index */
+
+.btnBanner {
+    position: absolute;
+    border: solid black 1px;
+    background-color: rgb(232, 193, 122);
+    border-radius: 15px;
+    right: 27%;
+    top: 20%;
+
+    a {
+        text-decoration: none;
+        color: #3c4043;
+    }
+}
+
+.btn:hover {
+    background-color: wheat;
+    border-radius: 15px;
+
+}
+
+.contenedorMain {
+    background-color: wheat;
+}
+
+.row {
+    margin: 0;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+
+    img {
+        margin-top: 10px;
+    }
+}
+
+.card-body .btn {
+    background-color: rgb(232, 193, 122);
+}

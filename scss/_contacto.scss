@@ -1,0 +1,60 @@
+/* Contacto */
+.contactoBanner img{
+    width: 100%;
+}
+.contactoMainN{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    border-bottom: #3c4043 solid 1px;
+    border-top: #3c4043 solid 1px;
+}
+
+.formContacto {
+    width: 350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+    margin: 20px 5px;
+    h1 {
+        font-family: "Pacifico", cursive;
+        margin-top: 0;
+        border-bottom: solid black 2px;
+        font-size: 40px;
+    }
+}
+
+form label {
+    font-family: "Gin-Rough", sans-serif;
+    font-size: 20px;
+}
+
+.formContacto form {
+    display: flex;
+    flex-direction: column;
+    input {
+        padding: 12px 20px;
+        margin: 5px 0;
+        border: none;
+    }
+    .datos {
+        border-bottom: 2px solid red;
+    }
+}
+
+
+.btnForm {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
