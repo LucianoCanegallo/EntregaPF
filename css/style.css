@@ -388,3 +388,18 @@ form label {
 
 p {
   font-family: "Gin-Rough", sans-serif; }
+
+.navbar {
+  animation-name: fade-in;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: .5; }
+
+@keyframes fade-in {
+  0% {
+    transform: translateY(-20px);
+    opacity: .5; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }

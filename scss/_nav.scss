@@ -1,4 +1,5 @@
 .navbar {
+    @extend %animacion1;
     background-color: wheat;
     padding: 15px;
     margin: 0;
