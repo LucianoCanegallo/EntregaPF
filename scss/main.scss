@@ -13,7 +13,7 @@ p {
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-duration: 1s;
-    animation-delay: .3;
+    animation-delay: .4;
 }
 
 @keyframes animacion11{
@@ -39,6 +39,44 @@ p {
 @keyframes animacion22{
 0%{
     transform: translateY(-30px);
+    opacity: .5;
+}
+100%{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+}
+%animacion3{
+    animation-name: animacion33;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: .5;
+}
+
+@keyframes animacion33{
+0%{
+    transform: translateY(-40px);
+    opacity: .5;
+}
+100%{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+}
+%animacion4{
+    animation-name: animacion44;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: .5;
+}
+
+@keyframes animacion44{
+0%{
+    transform: translateY(20px);
     opacity: .5;
 }
 100%{

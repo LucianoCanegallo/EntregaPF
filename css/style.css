@@ -120,7 +120,8 @@
   align-items: center;
   margin: 30px;
   padding: 15px;
-  border: #3c4043 solid 1px; }
+  border: #3c4043 solid 1px;
+  border-radius: 10px; }
   .item1 img,
   .item2 img,
   .item3 img,
@@ -390,13 +391,13 @@ p {
   font-family: "Gin-Rough", sans-serif; }
 
 .navbar {
-  animation-name: animacion1;
+  animation-name: animacion11;
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-duration: 1s;
-  animation-delay: .3; }
+  animation-delay: .4; }
 
-@keyframes animacion1 {
+@keyframes animacion11 {
   0% {
     transform: translateY(-20px);
     opacity: .5; }
@@ -404,16 +405,46 @@ p {
     transform: translateY(0);
     opacity: 1; } }
 
-.bannerIndex {
-  animation-name: animacion2;
+.bannerIndex, .conteinerProd, .conteinerPein, .bannerHistoria .cuadroBanner, .contactoBanner img {
+  animation-name: animacion22;
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-duration: 1.5s;
   animation-delay: .5; }
 
-@keyframes animacion2 {
+@keyframes animacion22 {
   0% {
-    transform: translateY(-20px);
+    transform: translateY(-30px);
+    opacity: .5; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+.contenedorMain, .contenidoHistoria, .contactoMainN {
+  animation-name: animacion33;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: .5; }
+
+@keyframes animacion33 {
+  0% {
+    transform: translateY(-40px);
+    opacity: .5; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+footer {
+  animation-name: animacion44;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: .5; }
+
+@keyframes animacion44 {
+  0% {
+    transform: translateY(20px);
     opacity: .5; }
   100% {
     transform: translateY(0);

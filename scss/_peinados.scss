@@ -1,5 +1,6 @@
 /* peinados */
 .conteinerPein {
+    @extend %animacion2;
     width: 100%;
 
     display: grid;

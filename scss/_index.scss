@@ -1,6 +1,6 @@
 /* Index */
 .bannerIndex{
-    @extend %animacion22;
+    @extend %animacion2;
 }
 .btnBanner {
     position: absolute;
@@ -23,6 +23,7 @@
 }
 
 .contenedorMain {
+    @extend %animacion3;
     background-color: wheat;
 }
 
@@ -42,4 +43,8 @@
 
 .card-body .btn {
     background-color: rgb(232, 193, 122);
+}
+
+footer{
+    @extend %animacion4;
 }

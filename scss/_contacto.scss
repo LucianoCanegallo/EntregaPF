@@ -1,5 +1,6 @@
 /* Contacto */
 .contactoBanner img{
+    @extend %animacion2;
     width: 100%;
 }
 .contactoMainN{
@@ -8,6 +9,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    @extend %animacion3;
 
     border-bottom: #3c4043 solid 1px;
     border-top: #3c4043 solid 1px;
