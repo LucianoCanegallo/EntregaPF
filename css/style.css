@@ -121,7 +121,8 @@
   margin: 30px;
   padding: 15px;
   border: #3c4043 solid 1px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; }
   .item1 img,
   .item2 img,
   .item3 img,
@@ -190,7 +191,8 @@
   margin: 30px;
   padding: 15px;
   border: #3c4043 solid 2px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; }
   .itemP1 img,
   .itemP2 img,
   .itemP3 img,
