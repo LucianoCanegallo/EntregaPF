@@ -9,16 +9,36 @@ p {
 }
 
 %animacion1{
-    animation-name: fade-in;
+    animation-name: animacion11;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    animation-duration: 2s;
+    animation-duration: 1s;
+    animation-delay: .3;
+}
+
+@keyframes animacion11{
+0%{
+    transform: translateY(-20px);
+    opacity: .5;
+}
+100%{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+}
+
+%animacion2{
+    animation-name: animacion22;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
     animation-delay: .5;
 }
 
-@keyframes fade-in{
+@keyframes animacion22{
 0%{
-    transform: translateY(-20px);
+    transform: translateY(-30px);
     opacity: .5;
 }
 100%{

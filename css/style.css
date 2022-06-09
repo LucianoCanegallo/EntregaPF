@@ -390,13 +390,28 @@ p {
   font-family: "Gin-Rough", sans-serif; }
 
 .navbar {
-  animation-name: fade-in;
+  animation-name: animacion1;
   animation-iteration-count: 1;
   animation-timing-function: ease;
-  animation-duration: 2s;
+  animation-duration: 1s;
+  animation-delay: .3; }
+
+@keyframes animacion1 {
+  0% {
+    transform: translateY(-20px);
+    opacity: .5; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+.bannerIndex {
+  animation-name: animacion2;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 1.5s;
   animation-delay: .5; }
 
-@keyframes fade-in {
+@keyframes animacion2 {
   0% {
     transform: translateY(-20px);
     opacity: .5; }

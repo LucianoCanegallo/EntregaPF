@@ -1,5 +1,7 @@
 /* Index */
-
+.bannerIndex{
+    @extend %animacion22;
+}
 .btnBanner {
     position: absolute;
     border: solid black 1px;
